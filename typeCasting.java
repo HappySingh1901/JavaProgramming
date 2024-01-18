@@ -5,7 +5,7 @@ public class typeCasting {
         System.out.println(num2);
 
 
-        //double num3= 10.0;                       //This can't be implemented you cannot convert larger to smaller type size.
+        //double num3= 10.0;                       //This can't be implemented you cannot convert larger to smaller type size implicitly.
         //int num4= num3;
 
         double num3 = 10.0;
