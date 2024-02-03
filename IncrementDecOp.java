@@ -10,5 +10,7 @@ public class IncrementDecOp {
         char a='a';
         a++;
         System.out.println(a);      //The answer is b
+        char b= ++a;
+        System.out.println(b);
     }
 }
