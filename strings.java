@@ -26,5 +26,9 @@ public class strings {
         int num1=100;
         String str3=" Hundred";                             //If we add a number to string the resultant will be a string.
         System.out.println(num1+str3);
+
+        int num2=3;
+        String str4="Hello";
+        System.out.println(str4.repeat(num2));
     }
 }
