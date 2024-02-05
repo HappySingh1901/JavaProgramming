@@ -14,5 +14,9 @@ public class math {
         System.out.println(Math.ceil(-1.4223));
 
         System.out.println(Math.floor(-1.4223));
+
+        System.out.println(Math.random());          //Math.random() returns a random number between 0.0 (inclusive), and 1.0 (exclusive)
+
+        System.out.println((int)(Math.random()*101)); //This will give Output frm 0-100.
     }
 }
