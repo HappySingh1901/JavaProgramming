@@ -29,6 +29,7 @@ public class strings {
 
         int num2=3;
         String str4="Hello";
-        System.out.println(str4.repeat(num2));
+        System.out.println(str4.repeat(num2));              //Output is HelloHellHello
+        System.out.println(str4.repeat(4));           //Output is HelloHellHelloHello
     }
 }
