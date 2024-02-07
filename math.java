@@ -7,6 +7,8 @@ public class math {
 
         System.out.println( (int) Math.sqrt(4));                //(int) for intrger value otherwise the value would be in float.
 
+        System.out.println( (int) Math.cbrt(8));
+
         System.out.println(Math.abs(-1.4223));
 
         System.out.println((int)Math.pow(6,3));
@@ -18,5 +20,9 @@ public class math {
         System.out.println(Math.random());          //Math.random() returns a random number between 0.0 (inclusive), and 1.0 (exclusive)
 
         System.out.println((int)(Math.random()*101)); //This will give Output frm 0-100.
+
+        System.out.println(Math.sin(1));
+
+        System.out.println(Math.cos(1));
     }
 }
