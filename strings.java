@@ -3,7 +3,7 @@ public class strings {
         String car="Volvo";
         System.out.println(car); 
 
-        String txt="qwertyuiopasdfghjklzxcvbnm";
+        String txt="qwErtYuIoPasdfGhjklZxCvbNm";
         System.out.println(txt.length());
 
         String name="Happy signh";
@@ -29,7 +29,15 @@ public class strings {
 
         int num2=3;
         String str4="Hello";
-        System.out.println(str4.repeat(num2));              //Output is HelloHellHello
-        System.out.println(str4.repeat(4));           //Output is HelloHellHelloHello
+        System.out.println(str4.repeat(num2));              //Output is HelloHelloHello
+        System.out.println(str4.repeat(4));           //Output is HelloHelloHelloHello
+
+        System.out.println("String in uppercase: " + txt.toUpperCase());
+        System.out.println("String in uppercase: " + txt.toLowerCase());
+
+
+        String s1="Happy Singh";
+        System.out.println(s1.replaceAll("\\s", ""));       // "\\s" is used to ignore all whitespace characters like space,tab and newline character.
+        
     }
 }
