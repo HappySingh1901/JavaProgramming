@@ -7,7 +7,8 @@ public class StringToArray {
         int n=s.length();
         for(int i=0;i<n;i++){
             System.out.println(c[i]);
-        }
+            
+        } 
         sc.close();
     }
 }
