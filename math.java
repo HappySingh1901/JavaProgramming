@@ -24,5 +24,9 @@ public class math {
         System.out.println(Math.sin(1));
 
         System.out.println(Math.cos(1));
+        
+        System.out.println(Math.log(4));
+        
+        System.out.println(Math.log10(100));
     }
 }
