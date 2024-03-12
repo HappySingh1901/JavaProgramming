@@ -28,5 +28,9 @@ public class math {
         System.out.println(Math.log(4));
         
         System.out.println(Math.log10(100));
+
+        System.out.println(Math.exp(8));
+
+        System.out.println(Math.PI);
     }
 }
