@@ -31,6 +31,9 @@ public class math {
 
         System.out.println(Math.exp(8));
 
+        System.out.println(Math.round(8.12));
+        
         System.out.println(Math.PI);
+
     }
 }
