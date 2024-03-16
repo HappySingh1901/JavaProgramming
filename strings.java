@@ -33,9 +33,9 @@ public class strings {
         System.out.println(str4.repeat(4));           //Output is HelloHelloHelloHello
 
         System.out.println("String in uppercase: " + txt.toUpperCase());
-        System.out.println("String in uppercase: " + txt.toLowerCase());
+        System.out.println("String in uppercase: " + txt.toLowerCase()); 
 
-
+ 
         String s1="Happy Singh";
         System.out.println(s1.replaceAll("\\s", ""));       // "\\s" is used to ignore all whitespace characters like space,tab and newline character.
         
